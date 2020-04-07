@@ -3,10 +3,13 @@ Ecma 5
 Ecma 6
 > variable
 > Operations
+> String
+> Math
+> Date
+-------------------------
 > condition
 > if else
 > ternery Operations
-> Date
 > switch
 > localstorage
 > array
@@ -39,10 +42,12 @@ Ecma 6
 > Github
 
 20-25
+V8 compiler
 
 ///Next Topic///
-String operations
-MATH
+Github
+switch
+Array
 
 
-V8 compiler
+

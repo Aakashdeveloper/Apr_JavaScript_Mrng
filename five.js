@@ -146,3 +146,11 @@ a.trim().replace(/ /g,'')
 "HiiamdoingJs"
 a.replace(/ /g,'')
 "HiiamdoingJs"
+
+
+var a = "hi"
+var b = "bie"
+a+','+b
+
+
+var a = 'a','a','b'
