@@ -5,6 +5,9 @@ var c = [true, false,false]
 
 var d = [2,3,"f",true,false,6,"d"]
 var d = [2,3,"f",true,false,6,"d"]
+
+var e = [['a','b'],['g','h']]
+
 undefined
 d.length
 7

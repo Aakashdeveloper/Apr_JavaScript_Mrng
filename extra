@@ -12,8 +12,9 @@ Ecma 6
 > switch
 > localstorage
 > array
--------------------------
 > loops
+> String literals
+-------------------------
 > functions 
 > Es6
     > lat, const
@@ -45,7 +46,7 @@ Ecma 6
 V8 compiler
 
 ///Next Topic///
-Array
+function 
 
 gitbash
 https://git-scm.com/downloads
