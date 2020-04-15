@@ -73,8 +73,6 @@ function isEven(userInput){
             output.push("Odd")
         }
     }
-
-
     return output
 }
 var a = [3,5,7,8,2,1,6,7,1]
@@ -82,7 +80,27 @@ isEven(a)
 (9) ["Odd", "Odd", "Odd", "Even", "Even", "Odd", "Even", "Odd", "Odd"]
 
 
-//Es6
+////Method
+var isEven = function(userInput){
+    var output = []
+    for(i=0;i<userInput.length;i++){
+        if(userInput[i]%2==0){
+            output.push("Even")
+        }else{
+            output.push("Odd")
+        }
+    }
+    return output
+}
+
+
+var a = [3,5,7,8,2,1,6,7,1]
+isEven(a)
+(9) ["Odd", "Odd", "Odd", "Even", "Even", "Odd", "Even", "Odd", "Odd"]
+
+
+
+//Es6 Arrow Function
 var add = (a,b) => {return a+b}
 add(1,2)
 
@@ -97,3 +115,7 @@ var isEven = (userInput) => {
     }
     return output
 }
+
+var a = [3,5,7,8,2,1,6,7,1]
+isEven(a)
+(9) ["Odd", "Odd", "Odd", "Even", "Even", "Odd", "Even", "Odd", "Odd"]
