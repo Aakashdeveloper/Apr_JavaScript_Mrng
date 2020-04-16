@@ -16,17 +16,17 @@ Ecma 6
 > String literals
 > functions 
 > Clousers
--------------------------
 > Es6
     > lat, const
     > maps,filter
 > regex
+-------------------------
 > Hoisting
 > object 
-> Transpile
 > Es6
     > classes
     > import export
+> Transpile
 > Prototypes
 > DoM
 > Event
@@ -37,6 +37,7 @@ Ecma 6
 > promis
 > async await
 > Baisc Jquery
+> Currency Convereter
 > Weather application
 > ajax
 > JSON
@@ -63,3 +64,6 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+
+
