@@ -29,7 +29,7 @@ a.filter((item) => {return  item+1})
 
 var a = [0,1,2,3]
 a.filter((item) => {return  item*1})
-a.map((item) => {return  item*1})
+a.map((item) => { item*1})
 
 var a = [0,1,2,3]
 a.filter((item) => {return  item*1})

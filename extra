@@ -20,14 +20,14 @@ Ecma 6
     > lat, const
     > maps,filter
 > regex
--------------------------
 > Hoisting
 > object 
+-------------------------
+> Prototypes
 > Es6
     > classes
     > import export
 > Transpile
-> Prototypes
 > DoM
 > Event
 > Calc
@@ -36,8 +36,8 @@ Ecma 6
 > Progress bar
 > promis
 > async await
-> Baisc Jquery
 > Currency Convereter
+> Baisc Jquery
 > Weather application
 > ajax
 > JSON
