@@ -22,11 +22,12 @@ Ecma 6
 > regex
 > Hoisting
 > object 
--------------------------
 > Prototypes
 > Es6
     > classes
     > import export
+-------------------------
+
 > Transpile
 > DoM
 > Event
@@ -66,4 +67,7 @@ git commit -m "first commit"
 git push
 
 
-
+///
+package.json 
+npm
+babel
