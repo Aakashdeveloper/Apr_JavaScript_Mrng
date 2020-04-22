@@ -26,14 +26,13 @@ Ecma 6
 > Es6
     > classes
     > import export
--------------------------
-
 > Transpile
 > DoM
 > Event
 > Calc
-> Form validation
 > Geolocation
+-------------------------
+> Form validation
 > Progress bar
 > promis
 > async await
@@ -48,7 +47,8 @@ Ecma 6
 V8 compiler
 
 ///Next Topic///
-function 
+form validation
+
 
 gitbash
 https://git-scm.com/downloads
@@ -71,3 +71,9 @@ git push
 package.json 
 npm
 babel
+
+/*********
+> navgiate to folder where you want to generate this filee
+> npm init -y
+
+> npm i @babel/core @babel/preset-env @babel/register

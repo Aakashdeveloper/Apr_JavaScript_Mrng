@@ -13,4 +13,5 @@ articles.latest=[
 
 articles.find = (table) => { return `Select * from ${table}`}
 
-module.exports = articles;
+//module.exports = articles;
+export default articles;

@@ -1,0 +1,17 @@
+{
+  "name": "import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
+  "scripts": {
+   "start":"script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0"
+  }
+}
