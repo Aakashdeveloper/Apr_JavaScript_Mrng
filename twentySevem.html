@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script>
+            const validate = () => {
+                var name = document.getElementById('fname').value;
+                if(name == ' '|| name=='') {
+                    document.getElementById('output').innerText="Please enter first Name"
+                }else{
+                    document.getElementById('output').innerText="";
+                }
+            }
+
+            const passvalid = () => {
+                var pass = document.getElementById('lname').value;
+                if(pass.length<8){
+                    document.getElementById('output').innerText="Min Length is 8";
+                }else{
+                    document.getElementById('output').innerText="";
+                }
+            }
+
+            function validemail(){
+                var email = document.getElementById('email').value;
+                if(email==' '||email==""){
+                    document.getElementById('output').innerText="Please enter Email";
+                }else{
+                    if(email.match('^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,5})$') == null){
+                        document.getElementById('output').innerText="Please enter Valid Email";
+                    }else{
+                        document.getElementById('output').innerText="";
+                    }
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname" onblur="validate()">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" id="lname" oninput="passvalid()">
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" onblur="validemail()">
+            </div>
+        </form>
+        <p id="output" style="color:red"></p>
+    </body>
+</html>
