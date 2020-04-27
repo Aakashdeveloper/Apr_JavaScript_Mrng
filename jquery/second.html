@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+            #main{
+                height:300px;
+                width:300px;
+                background-color: red;
+            }
+        </style>
+        <script>
+            $(document).ready(() => {
+                $('#change').click(() => {
+                    $('#main').css('background-color','teal')
+                    $('#one').css('color','tomato')
+                }) 
+                $('#hide').click(() => {
+                    $('#main').hide(2000)
+                }) 
+                $('#show').click(() => {
+                    $('#main').show(3000)
+                }) 
+            })
+        </script>
+    </head>
+    <body>
+        <h1 id="one">This is from jquery</h1>
+        <button id="hide">Hide Me</button>
+        <button id="show">Show Me</button>
+        <button id="change">Change Color</button>
+        <div id="main"></div>
+    </body>
+</html>
