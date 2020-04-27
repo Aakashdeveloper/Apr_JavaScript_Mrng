@@ -4,7 +4,7 @@ const weatherUrl = "http://api.openweathermap.org/data/2.5/forecast/daily?q=Lond
 function getWeather(){
     $.ajax({
         url: weatherUrl,
-        type:'GET',
+        type:'POST',
         dataType:'json',
         success:function(data){
             for(i=0;i<data.list.length;i++){

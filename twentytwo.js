@@ -42,3 +42,20 @@ tony.city="Newyork";
 tony.setAge = createAge
 
 bob.setAge(10)
+
+
+
+var movies = {
+    name:"Avngers",
+    rate:4.5
+}
+
+var x;
+for(x in movies){
+    //console.log(x)
+    console.log(movies[x])
+}
+
+
+null => in return when thing does not exist
+undefined => something is not defined
